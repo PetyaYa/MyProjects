@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css'); 
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'PT Sans', sans-serif;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	width: 70%;
+	margin: 0 auto;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.nav li {
+	display: inline-block;
+	list-style: none outside;
+	margin: 1em;
+	text-decoration: none;
+
+}
+
+.nav li a {
+	text-decoration: none;
+	color: #5A5A5A;
+}
+
+.nav li a:hover {
+	color: blue;
+}
+
+.nav li:first-child a{
+	color: #FA5B3D
+}
+
+header nav ul:nth-child(2) li {
+	border-right: 1px solid grey;
+	padding-right: 0.5em;
+	margin-left: 0em;
+}
+
+.image {
+	background: url(Images/residential-banner-2.jpg) no-repeat center;
+	height: 30em;
+	text-align: center;
+	padding-top: 3em;
+	color: white;
+}
+
+.image h1 {
+	font-size: 3em;
+}
+
+.image p {
+	font-size: 1.5em
+
+}
+
+.image p {
+		margin: 1em;
+}
+
+.main h3 {
+	text-align: center;
+}
+
+.num {
+	font-size: 3em;
+}
+
+.num:before,
+.num:after {
+	height: 2px;
+	width: 25px;
+	background: gray;
+	content: '';
+	display: block;
+	margin: 10px;
+}
+
+.lists {
+	display: flex;
+	margin: 0 auto;
+	list-style: none outside;
+	padding: 2em;
+	justify-content: center;
+}
+
+.main ul li {
+	width: 15%;
+	text-align: center;
+	color: #5A5A5A
+}
+.lists h2 {
+	display: flex;
+	padding: 0.3em;
+	justify-content: center;
+	align-items: center;
+}
+
+.images ul{
+	display: flex;
+	background: #EDEDED;
+	justify-content: center;
+	list-style: none outside;
+	padding: 3em;
+}
+
+.images li {
+	padding: 0.3em;
+}
+
+footer {
+	background: black;
+	color: grey;
+	
+}
+
+footer ul {
+	list-style: none outside;
+}
+
+.left {
+	display: flex;
+	padding: 0em 1em 1em 1em;
+	border-bottom: 2px solid grey;
+}
+
+.left ul {
+	padding: 0em 1em 1em 1em;
+}
+
+.center p {
+	text-align: center;
+}
+
+
+.right {
+	display: block;
+}
+
+.right > *{
+	margin: 0em 1em 1em 1em;
+}
+
+.right input,
+.right button {
+	padding: 0.5em;
+}
+
+.right button {
+	background-color: #FA5B3C;
+	color: white;
+	border: none;
+	border-radius: 5%;
+}
+
+.upper {
+	display: flex;
+	justify-content: center;
+	padding-top: 2.5em;
+}
+
+
+.fas,
+.fa-circle {
+	color: white;
+}
+
+.down {
+	text-align: center;
+	padding: 7em 0 2em 0;
+}
+
+.fa-sort-down {
+	color: #FA5B3D;
+}
+

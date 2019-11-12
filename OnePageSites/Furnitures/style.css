@@ -1,0 +1,193 @@
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+.heading {
+	background-color: #F93700;
+
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.nav li {
+	display: inline-block;
+	list-style: none outside;
+	margin: 1em;
+	text-decoration: none;
+
+}
+
+.nav li a {
+	text-decoration: none;
+	color: white;
+}
+
+
+.navi input {
+  padding: 3px 60px 3px 60px;
+  margin-left: 0.5em;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 70%;
+}
+
+button {
+  width: 15%;
+  padding: 3px;
+  background: #B6AFAF;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+button i {
+	font-size: 0.7em;	
+}
+
+.fa-user {
+	padding-right: 10px;
+}
+
+.content {
+	background-color: #F0E4E4;
+	margin: 0 auto;
+	color: grey;
+}
+
+.collection ul {
+	display: flex;
+	justify-content: center;
+	list-style: none outside;
+	padding: 3em;
+}
+.collection img {
+	width: 100%;
+	height: 100%;
+	padding: 1em;
+}
+
+.collection ul p {
+	text-align: center;
+	color: #757575;
+}
+
+.new-fall-collection {
+	display: flex;
+	padding-left: 4em;
+	padding-top: 0;
+
+}
+
+.new-fall-collection h1 {
+	color: #F93700;
+
+}
+
+.new-fall-collection button {
+	background-color: #F93700;
+	width: 6em;
+	padding: 0.5em;
+	margin-top: 1em;
+	border: none;
+	border-radius: 5px;
+}
+
+.new-fall-collection img {
+	width: 90%;
+}
+
+.left {
+	width: 40%;
+	padding-top: 2em;
+}
+
+.right {
+	width: 60%;
+}
+
+.shipping {
+	padding-top: 2em;
+}
+
+.shipping ul{
+	display: flex;
+	width: 89%;
+	margin: 0 auto;
+	background-color: #CAC3C3;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.shipping ul li {
+	margin: 0 auto;
+	list-style: none outside;
+}
+
+.shipping img {
+	background-color: #E6D6D6;
+ 	border-radius: 50%;
+ 	padding:10px;
+}
+
+.nav-footer {
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin: 0 auto;
+
+}
+
+.nav-footer li {
+	display: inline-block;
+	list-style: none outside;
+	margin: 1em;
+	text-decoration: none;
+
+}
+
+.nav-footer li, a {
+	text-decoration: none;
+	color: grey;
+
+}
+
+.navi-icons i {
+	margin: 8px;
+	font-size: 1.8em;
+
+}
+
+.navi-icons button {
+	width: 7em;
+	padding: 0.5em;
+	margin-top: 1em;
+	border: none;
+	border-radius: 5px;
+	color: black;
+}
