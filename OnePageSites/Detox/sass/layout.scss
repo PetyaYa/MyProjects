@@ -1,0 +1,13 @@
+body {
+    max-width: 85.71em;
+}
+
+@mixin site {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.why-detox {
+    width: 40%;
+    padding-top: 5em;
+}
